@@ -40,6 +40,7 @@ chrono = { workspace = true, features = ["wasmbind"] }
 gloo-timers = { version = "0.3.0", features = ["futures"] }
 
 [dev-dependencies]
+divan = { version = "5.0.2", package = "codspeed-divan-compat" }
 env-lock = { workspace = true }
 tempfile = { workspace = true }
 test-case = { workspace = true }
@@ -48,3 +49,7 @@ tokio-stream = { workspace = true }
 
 [build-dependencies]
 zstd = "0.14.0"
+
+[[bench]]
+name = "provider_types"
+harness = false
