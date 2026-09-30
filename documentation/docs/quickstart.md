@@ -26,7 +26,7 @@ This quick tutorial will guide you through:
 - ✅ Building a small app
 - ✅ Adding an MCP server
 
-Let's begin 🚀
+Let's begin now 🚀
 
 ## Install goose
 
